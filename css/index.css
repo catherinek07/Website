@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+body{
+    background-color:beige;
+    font-family: 'Catamaran', sans-serif;
+}
+img{
+  margin: 20px 0 0 0;
+  width:180px;
+  height:auto;
+}
+nav{
+  position:fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:200px;
+  background-color:#f5746b;
+  text-align: center;
+  align-items: center;
+  line-height: 3.0;
+    
+}
+nav>ul{
+  list-style-type: none;
+  font-size: 20px;
+}
+a:link, a:visited {
+  background-color: #f5746b;
+  color: rgb(212, 206, 206);
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  color:white;
+  background-color: #f66257;
+}
+#about{
+  top:0;
+  font-size: 18px;
+  position:absolute;
+  margin: 50px 0 0 250px;
+  width:75%;
+}
+#projects{
+  top:0;
+  font-size: 18px;
+  position:absolute;
+  margin: 550px 0 0 250px;
+  width:75%;
+}
+#projects>h2{
+  color:grey;
+}
+.images{
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+#awards{
+  top:0;
+  font-size: 18px;
+  position:absolute;
+  margin: 1200px 0 0 250px;
+  width:75%;
+}
+#awards>h2{
+  color:grey;
+}
+#awards>h3{
+  color:#b9463e;
+}
+#experience{
+  top:0;
+  font-size: 18px;
+  position:absolute;
+  margin: 2500px 0 0 250px;
+  width:75%;
+}
+#experience>h2{
+  font-size: 22px;
+  color:#89332d;
+}
+#education{
+  top:0;
+  font-size: 18px;
+  position:absolute;
+  margin: 3400px 0 0 250px;
+  width:75%;
+}
+#education>h2{
+  font-size: 22px;
+  color:#6b2520;
+}
+#education>p{
+  color:grey;
+}
+#skills{
+  top:0;
+  font-size: 18px;
+  position:absolute;
+  margin: 3900px 0 0 250px;
+  width:75%;
+}
+#skills>h2{
+  color:grey;
+}

@@ -4,8 +4,8 @@ body{
     font-family: 'Catamaran', sans-serif;
 }
 img{
-  margin: 20px 0 0 0;
-  width:180px;
+  margin: 1vw 0 0 0;
+  width:10vw;
   height:auto;
 }
 nav{
@@ -13,11 +13,13 @@ nav{
   top:0;
   left:0;
   height:100%;
-  width:200px;
+  width:11vw;
   background-color:#f5746b;
   text-align: center;
   align-items: center;
   line-height: 3.0;
+  z-index:100;
+  overflow:scroll;
     
 }
 nav>ul{
@@ -27,7 +29,7 @@ nav>ul{
 a:link, a:visited {
   background-color: #f5746b;
   color: rgb(212, 206, 206);
-  padding: 14px 25px;
+  padding: 1vh 1.4vw;
   text-align: center; 
   text-decoration: none;
   display: inline-block;
@@ -41,14 +43,14 @@ a:hover, a:active {
   top:0;
   font-size: 18px;
   position:absolute;
-  margin: 50px 0 0 250px;
+  margin: 2.7vh 0 0 14vw;
   width:75%;
 }
 #projects{
   top:0;
   font-size: 18px;
   position:absolute;
-  margin: 550px 0 0 250px;
+  margin: 45vh 0 0 14vw;
   width:75%;
 }
 #projects>h2{
@@ -57,13 +59,13 @@ a:hover, a:active {
 .images{
   float: left;
   width: 30%;
-  padding: 5px;
+  padding: 0.3vw;
 }
 #awards{
   top:0;
   font-size: 18px;
-  position:absolute;
-  margin: 1200px 0 0 250px;
+  position: absolute;
+  margin: 105vh 0 0 14vw;
   width:75%;
 }
 #awards>h2{
@@ -75,8 +77,8 @@ a:hover, a:active {
 #experience{
   top:0;
   font-size: 18px;
-  position:absolute;
-  margin: 2500px 0 0 250px;
+  position: absolute;
+  margin: 230vh 0 0 14vw;
   width:75%;
 }
 #experience>h2{
@@ -87,7 +89,7 @@ a:hover, a:active {
   top:0;
   font-size: 18px;
   position:absolute;
-  margin: 3400px 0 0 250px;
+  margin: 315vh 0 0 14vw; 
   width:75%;
 }
 #education>h2{
@@ -101,9 +103,24 @@ a:hover, a:active {
   top:0;
   font-size: 18px;
   position:absolute;
-  margin: 3900px 0 0 250px;
+  margin: 360vh 0 0 14vw;
   width:75%;
 }
 #skills>h2{
   color:grey;
 }
+.scroll{
+  position: fixed;
+  bottom: 3vw;
+  right: 3vw;
+  width: 2vw;
+  height: 7.5vh;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+  z-index: 100;
+ }
+ 
+ .scroll:hover{
+  opacity: 0.7;
+ }
